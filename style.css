@@ -319,14 +319,17 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
-    float: right;
+    margin-right: 0px;
+    float: left;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav > li {
     float: left;
     margin-top: 4px;
+    margin-left: 20px;
     font-size: 16px;
 }
 
@@ -368,7 +371,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 15%;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -777,7 +780,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
