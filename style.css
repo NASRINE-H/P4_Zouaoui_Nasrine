@@ -780,7 +780,15 @@ h4 {
 }
 
 .tc-white {
+    color: #ffffff!important;
+}
+
+.tc-black {
     color: #000000!important;
+}
+
+.tc-orange {
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
